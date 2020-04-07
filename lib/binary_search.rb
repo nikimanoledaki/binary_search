@@ -10,11 +10,10 @@ class BinarySearch
                 return mid
             elsif guess > item
                 high = mid - 1
-            elsif
-                low = mid + 1
             else
-                return None
+                low = mid + 1
             end
         end
+        return "None"
     end 
 end
